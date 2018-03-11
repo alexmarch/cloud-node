@@ -1,0 +1,34 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "arrow-body-style":"warn",
+        "camelcase":"warn",
+        "comma-style":"warn",
+        "no-empty-function": "warn",
+        "no-return-assign": "warn",
+        "array-callback-return": "warn",
+        "semi": [
+            "error",
+            "never"
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+# Folders
+assets
+test
+
+# Docker
+package-lock.json
+docker-compose.yml
+Docker*
+
+# Editor
+.editorconfig
+
