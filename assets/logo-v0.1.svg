@@ -1,12 +1,12 @@
 <svg width="299" height="95" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
- <g>
+ <!--<g>
   <title>background</title>
   <rect fill="#fff" id="canvas_background" height="97" width="301" y="-1" x="-1"/>
   <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
    <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
   </g>
- </g>
+ </g> -->
  <g>
   <title>Layer 1</title>
   <text font-weight="bold" stroke="#007f3f" transform="matrix(2.9472615718841553,0,0,2.9472615718841553,-450.79105389118195,-367.05880630016327) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="20" id="svg_47" y="149.926855" x="196.337383" stroke-opacity="null" stroke-width="0" fill="#12ad0f">NODE</text>
