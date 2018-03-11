@@ -1,6 +1,10 @@
 {
   "name": "@cloud-node/server",
+<<<<<<< HEAD
   "version": "0.0.8-0",
+=======
+  "version": "0.1.6-alpha",
+>>>>>>> de65489e4d760c406cc6824da98b133b9654bc1c
   "description": " Cloud-node - web framework build on top of ExpressJS",
   "main": "index.js",
   "scripts": {
