@@ -1,6 +1,6 @@
 {
   "name": "@cloud-node/server",
-  "version": "0.0.4",
+  "version": "0.0.4-alpha",
   "description": " Cloud-node - web framework build on top of ExpressJS",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/alexmarch/cloud-node.git"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "api",
+    "server"
+  ],
   "author": "Aleksander Marchenko <maappdev@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/alexmarch/cloud-node/issues"
   },
