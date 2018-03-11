@@ -14,7 +14,15 @@ Node v8.9.4 (npm v5.7.1)
 ```bash
   npm install @cloud-node/server@0.0.5-alpha
 ```
-
+## How to use
+```javascript
+  const { server } = require('@cloud-node/server');
+  server.start({
+    pm2: process.env.NODE_ENV === 'development' ? true : false
+  });
+```
+If option **pm2** is enabled in console you will see pm2 monitor
+![image](https://i.imgur.com/vXp5hI7.png|100)
 ## Setup
 ### Routes
 Create configuration file for routes **config/routes.yml** with next structure
