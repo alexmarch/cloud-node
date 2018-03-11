@@ -12,7 +12,7 @@ Node v8.9.4 (npm v5.7.1)
 
 ## Install
 ```bash
-  npm install @cloud-node/server@0.0.5-alpha
+  npm install @cloud-node/server@0.1.6
 ```
 ## How to use
 ```javascript
