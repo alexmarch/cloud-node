@@ -47,7 +47,9 @@ routes:
 Protect you route with polices, create file **config/polices.js**
 ```javascript
   module.exports = {
-    isAuth: (req, res, next) => ( req.user.isAuth ? next() : next('User not authorized.') )// Checking if user authorized
+    isAuth: function (req, res, next) {
+      return req.user.isAuth ? next() : next('User not authorized.') ) // Checking if user authorized
+    }
   }
 ```
 ```yaml
@@ -61,7 +63,7 @@ Protect you route with polices, create file **config/polices.js**
 Create controller file in the application root folder **controllers/cloud.js**
 ```javascript
   module.exports = {
-    index: (req, res) => res.ok('Hi, cloud-node.')
+    index: function (req, res) { res.ok('Hi, cloud-node.') }
   }
 ```
 routes configuration
@@ -72,7 +74,21 @@ routes configuration
       action: 'index'
 ```
 ### Models
-@TODO: - In progress
-
-### Plugins
-@TODO  - In progress
+You can subscribe your models in config routes.yml
+```yaml
+ model: 
+  - 'user'
+  - 'profile'
+```
+the you can get accress from your controller method
+```javascript
+  module.exports = {
+    index: function (req, res) { 
+      this.models.user.all().then(users => res.json(users));
+    }
+  }
+```
+### @TODO list:
+- [x] Models
+- [ ] PassportJS
+- [ ] Plugins
