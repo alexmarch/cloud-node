@@ -80,7 +80,7 @@ You can subscribe your models in config routes.yml
   - 'user'
   - 'profile'
 ```
-the you can get accress from your controller method
+then you can get accress from your controller method
 ```javascript
   module.exports = {
     index: function (req, res) { 
